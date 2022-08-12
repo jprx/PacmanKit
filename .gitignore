@@ -1,0 +1,4 @@
+DerivedData/
+build/
+.vscode
+pacmandc.xcodeproj/project.xcworkspace/xcuserdata/

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IOKitPersonalities</key>
+	<dict>
+		<key>PacmanKit</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+			<key>IOClass</key>
+			<string>PacmanKit</string>
+			<key>IOKitDebug</key>
+			<integer>65535</integer>
+			<key>IOMatchCategory</key>
+			<string>PacmanKit</string>
+			<key>IOProviderClass</key>
+			<string>IOResources</string>
+			<key>IOResourceMatch</key>
+			<string>IOKit</string>
+			<key>IOUserClientClass</key>
+			<string>PacmanUser</string>
+		</dict>
+	</dict>
+	<key>OSBundleLibraries</key>
+	<dict>
+		<key>com.apple.kpi.bsd</key>
+		<string>21.5</string>
+		<key>com.apple.kpi.iokit</key>
+		<string>21.5</string>
+		<key>com.apple.kpi.libkern</key>
+		<string>21.5</string>
+		<key>com.apple.kpi.mach</key>
+		<string>21.5</string>
+	</dict>
+</dict>
+</plist>
