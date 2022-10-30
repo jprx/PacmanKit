@@ -9,6 +9,7 @@
 #include <os/log.h>
 #include <sys/proc.h>
 #include <sys/vm.h>
+#include <IOKit/IOLib.h>
 #include "pacmandc.hpp"
 
 #define LOG_PREFIX "[PacmanKit]"
